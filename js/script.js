@@ -12,8 +12,9 @@ createApp({
                     this.discs = response.data;
                 }); 
         },
-        mounted() {
+    },
+    mounted() {
             this.getDiscsFromApi();
-        }
-    }
+    },
+
 }).mount('#app')
