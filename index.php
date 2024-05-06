@@ -24,7 +24,7 @@
             <div class="container ms-container mt-5 d-flex flex-wrap">
             
             <div class="card ms-card" v-for="disc in discs">
-                <img src="" class="card-img-top" alt="...">
+                <img :src="disc.poster" class="card-img-top" >
                 <div class="card-body">
                     <h5 class="card-title">{{ disc.title }}</h5>
                     <h6 class="card-subtitle mb-2 text-body-secondary">{{ disc.author }}</h6>
